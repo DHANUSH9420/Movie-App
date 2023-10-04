@@ -1,0 +1,115 @@
+.nav-container {
+  width: 100%;
+}
+.desktop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
+  height: 103px;
+  flex-shrink: 0;
+  opacity: 0.2;
+  background: #131313;
+}
+@media screen and (max-width: 600px) {
+  .desktop-container {
+    display: none;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.desktop-min-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.website-logo {
+  width: 135.001px;
+  height: 39px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.desktop-ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.desktop-list {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+  margin-right: 10px;
+}
+.desktop-list-select {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+  margin-right: 10px;
+}
+.desktop-right-container {
+  display: flex;
+}
+.icon {
+  margin-left: 10px;
+}
+.account-image-image {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 75px;
+  flex-shrink: 0;
+  opacity: 0.2;
+  background: #131313;
+}
+@media screen and (min-width: 600px) {
+  .mobile-container {
+    display: none;
+  }
+}
+.mobile-container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+}
+.mobile-logo {
+  width: 100px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.mobile-ul-list {
+  display: flex;
+}
+.header-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-ul-list {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  padding-left: 6px;
+  padding-right: 6px;
+  align-items: center;
+  background-color: transparent;
+}
